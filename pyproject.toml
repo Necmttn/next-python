@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "next-python"
+version = "0.1.0"
+description = ""
+authors = ["Necmettin Karakaya <necmettin.karakaya@gmail.com>"]
+readme = "README.md"
+packages = [{include = "next_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.79"
+openai = "^0.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
