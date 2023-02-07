@@ -1,0 +1,8 @@
+{
+  "builds": [
+    {
+      "src": "api/langchain.py",
+      "use": "@vercel/python"
+    }
+  ]
+}
